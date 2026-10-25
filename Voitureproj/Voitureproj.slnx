@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Voitureproj/Voitureproj.vcxproj" Id="4e6cf334-8f32-48e2-b06d-9030cee18f99" />
+</Solution>

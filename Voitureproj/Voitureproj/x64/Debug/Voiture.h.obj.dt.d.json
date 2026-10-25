@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\x270\\onedrive\\desktop\\codetps\\voitureproj\\voitureproj\\voiture.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\x270\\onedrive\\desktop\\codetps\\voitureproj\\voitureproj\\moteur.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
