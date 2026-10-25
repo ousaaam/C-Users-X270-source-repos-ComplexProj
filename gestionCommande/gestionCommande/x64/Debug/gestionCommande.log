@@ -1,0 +1,63 @@
+﻿  Commande.cpp
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.h(7,9): error C3646: 'name': unknown override specifier
+  (compiling source file 'Commande.cpp')
+  
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.h(7,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Commande.cpp')
+  
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.h(13,11): error C2061: syntax error: identifier 'string'
+  (compiling source file 'Commande.cpp')
+  
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(6,11): error C2511: 'Commande::Commande(std::string,int)': overloaded member function not found in 'Commande'
+      C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.h(4,7):
+      see declaration of 'Commande'
+  
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(6,60): error C2550: 'Commande::{ctor}': constructor initializer lists are only allowed on constructor definitions
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(7,2): error C2671: 'Commande::{ctor}': static member functions do not have 'this' pointers
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(8,2): error C2671: 'Commande::{ctor}': static member functions do not have 'this' pointers
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(9,2): error C2671: 'Commande::{ctor}': static member functions do not have 'this' pointers
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(10,2): error C2671: 'Commande::{ctor}': static member functions do not have 'this' pointers
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(11,2): error C2671: 'Commande::{ctor}': static member functions do not have 'this' pointers
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(26,16): error C2511: 'void Commande::afficher(void)': overloaded member function not found in 'Commande'
+      C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.h(4,7):
+      see declaration of 'Commande'
+  
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(27,24): error C2597: illegal reference to non-static member 'Commande::id'
+      C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.h(6,12):
+      see declaration of 'Commande::id'
+      C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(27,24):
+      the template instantiation context (the oldest one first) is
+          C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(27,7):
+          see reference to function template instantiation 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)' being compiled
+  
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(28,26): error C2065: 'name': undeclared identifier
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(29,39): error C2597: illegal reference to non-static member 'Commande::nombreArticles'
+      C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.h(11,7):
+      see declaration of 'Commande::nombreArticles'
+      C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(29,39):
+      the template instantiation context (the oldest one first) is
+          C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(29,7):
+          see reference to function template instantiation 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)' being compiled
+  
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(30,42): error C2597: illegal reference to non-static member 'Commande::total'
+      C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.h(10,9):
+      see declaration of 'Commande::total'
+      C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(30,42):
+      the template instantiation context (the oldest one first) is
+          C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(30,7):
+          see reference to function template instantiation 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)' being compiled
+  
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(31,21): error C2597: illegal reference to non-static member 'Commande::nombreArticles'
+      C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(31,21):
+      see declaration of 'Commande::nombreArticles'
+  
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(31,21): error C3867: 'Commande::nombreArticles': non-standard syntax; use '&' to create a pointer to member
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(31,21): error C2568: '<': unable to resolve function overload
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(32,48): error C2597: illegal reference to non-static member 'Commande::sommairePrix'
+      C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(32,48):
+      see declaration of 'Commande::sommairePrix'
+  
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(32,48): error C3867: 'Commande::sommairePrix': non-standard syntax; use '&' to create a pointer to member
+C:\Users\X270\source\repos\gestionCommande\gestionCommande\Commande.cpp(32,48): error C2568: '[': unable to resolve function overload
+  gestionCommande.cpp
+  Generating Code...
